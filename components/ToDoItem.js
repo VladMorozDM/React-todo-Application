@@ -2,10 +2,12 @@ import React from 'react';
 
 export default ({key, details: props, handleChange})=> {
     const stylesUndone ={
-      backgroundColor: "#FA8072"
+      backgroundColor: "#FA8072",
+      transition: "1.5s"
     }
     const stylesDone = {
-      backgroundColor: "#98FB98"
+      backgroundColor: "#98FB98",
+      transition: "1.5s"
     }
     return (
     <div className ="todo-item" style={props.completed 
